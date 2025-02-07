@@ -15,7 +15,7 @@ class HandDataset(Dataset):
 
 
 # 数据加载
-dataset = HandDataset('handpose_dataset.npz')
+dataset = HandDataset('backup_database_and_model_repository/handpose_dataset.npz')
 dataloader = DataLoader(dataset, batch_size=32, shuffle=True)
 
 # 训练配置

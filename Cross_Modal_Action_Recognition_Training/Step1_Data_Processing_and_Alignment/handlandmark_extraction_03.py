@@ -60,4 +60,4 @@ def process_video(input_path, output_csv):
     cap.release()
 
 if __name__ == "__main__":
-    process_video('E:\\User_Stuff\\Documents\\Code_Typing\\Python_3.12_Code_Workspace\\SmallProject\\YOLO_handpose\\mediapipe\\sEMGproject_480x480.mp4', 'hand_landmarks_n250205.csv')
+    process_video(r"Cross_Modal_Action_Recognition_Training/Backup_Database_and_Model_Repository_TOP/Handpose_Video_Data/sEMGproject_480x480.mp4", 'Cross_Modal_Action_Recognition_Training/Backup_Database_and_Model_Repository_TOP/Hand_Landmarks_Data/hand_landmarks_n250205.csv')

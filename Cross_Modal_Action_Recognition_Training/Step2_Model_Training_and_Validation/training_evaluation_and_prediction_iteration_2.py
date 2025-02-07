@@ -17,7 +17,7 @@ from matplotlib.animation import FuncAnimation
 
 # ================== 步骤1：数据转换 ==================
 print("步骤1：数据转换")
-data = pd.read_csv('synced_data_6points.csv')
+data = pd.read_csv('backup_database_and_model_repository/synced_data_6points.csv')
 
 # 配置参数
 WINDOW_SIZE = 200  # 分析窗口大小（200ms）
@@ -40,7 +40,7 @@ dataset = {
     'keypoints': np.array(keypoints)  # 现在形状为 (N, 21, 2)
 }
 
-np.savez('handpose_dataset.npz', **dataset)
+np.savez('backup_database_and_model_repository/handpose_dataset.npz', **dataset)
 
 # ================== 步骤2：模型定义 ==================
 print("步骤2：模型定义")
@@ -87,7 +87,7 @@ class HandDataset(Dataset):
 
 
 # 初始化数据集
-dataset = HandDataset('handpose_dataset.npz')
+dataset = HandDataset('backup_database_and_model_repository/handpose_dataset.npz')
 dataloader = DataLoader(dataset, batch_size=32, shuffle=True)
 
 # # 检查第一个样本的形状

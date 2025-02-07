@@ -60,4 +60,4 @@ def process_video(input_path, output_csv):
     cap.release()
 
 if __name__ == "__main__":
-    process_video('E:\\User_Stuff\\Documents\\Code_Typing\\Python_3.12_Code_Workspace\\SmallProject\\YOLO_handpose\\mediapipe\\sEMGproject_720x720.mp4', 'hand_landmarks.csv')
+    process_video(r"_base/mediapipe/sEMGproject_720x720.mp4", 'hand_landmarks.csv')

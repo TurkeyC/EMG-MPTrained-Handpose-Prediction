@@ -9,7 +9,7 @@ mp_hands = mp.solutions.hands.Hands(
     max_num_hands=1,               # 只检测一只手
     min_detection_confidence=0.7)  # 置信度阈值
 
-# 读取视频文件（将'test.mp4'换成你的视频名）
+# 读取视频文件（将'test.mp4'换成视频名）
 #cap = cv2.VideoCapture('test.mp4')
 cap = cv2.VideoCapture(0)
 

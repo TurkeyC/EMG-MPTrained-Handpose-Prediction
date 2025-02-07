@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 
 # 读取已同步数据
-data = pd.read_csv('synced_data_6points.csv')
+data = pd.read_csv('backup_database_and_model_repository/synced_data_6points.csv')
 
 # 提取肌电窗口（200ms窗口，对应约200行数据）
 window_size = 200  # 假设采样率1000Hz
@@ -21,4 +21,4 @@ dataset = {
     'emg': np.array(emg_windows),
     'keypoints': np.array(keypoints)
 }
-np.savez('handpose_dataset.npz', **dataset)
+np.savez('backup_database_and_model_repository/handpose_dataset.npz', **dataset)

@@ -16,7 +16,7 @@ import matplotlib
 matplotlib.use('TkAgg')#使用更高效的后端
 
 # 读取已同步数据
-data = pd.read_csv('synced_data_6points_n250205.csv')
+data = pd.read_csv('backup_database_and_model_repository/synced_data_6points_n250205.csv')
 
 # 提取肌电窗口（200ms窗口，对应约200行数据）
 window_size = 200  # 假设采样率1000Hz
@@ -35,7 +35,7 @@ dataset = {
     'emg': np.array(emg_windows),
     'keypoints': np.array(keypoints)
 }
-np.savez('handpose_dataset_n250205.npz', **dataset)
+np.savez('backup_database_and_model_repository/handpose_dataset_n250205.npz', **dataset)
 
 ##########################################
 
@@ -79,7 +79,7 @@ class HandDataset(Dataset):
         return self.emg[idx], self.keypoints[idx]
 
 # 数据加载
-dataset = HandDataset('handpose_dataset_n250205.npz')
+dataset = HandDataset('backup_database_and_model_repository/handpose_dataset_n250205.npz')
 dataloader = DataLoader(dataset, batch_size=32, shuffle=True)
 
 # 训练配置
@@ -99,7 +99,7 @@ for epoch in range(1500):
     print(f"Epoch {epoch+1}, Loss: {total_loss/len(dataloader):.4f}")
 
 print("模型训练已完成,正在保存")
-torch.save(model.state_dict(), 'hand_model_n250205.pth')
+torch.save(model.state_dict(), 'backup_database_and_model_repository/hand_model_n250205.pth')
 
 #print("正在进行模型输入输出验证")
 # # 在训练后添加测试代码

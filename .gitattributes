@@ -1,3 +1,16 @@
+*.py linguist-language=Python
+*.js linguist-language=JavaScript
+*.md linguist-language=Markdown
+*.json linguist-language=JSON
+*.xml linguist-language=XML
+*.txt linguist-language=Text
+*.ino linguist-language=C++
+*.m linguist-language=Matlab
+*.pde linguist-language=Processing
+*.ipynb linguist-language=Jupyter Notebook
+
+
+
 yolo11l-pose.pt filter=lfs diff=lfs merge=lfs -text
 sEMGproject_480x480.mp4 filter=lfs diff=lfs merge=lfs -text
 sEMGproject_720x720.mp4 filter=lfs diff=lfs merge=lfs -text
