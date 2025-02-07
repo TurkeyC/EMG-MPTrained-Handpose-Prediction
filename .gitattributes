@@ -1,0 +1,5 @@
+yolo11l-pose.pt filter=lfs diff=lfs merge=lfs -text
+sEMGproject_480x480.mp4 filter=lfs diff=lfs merge=lfs -text
+sEMGproject_720x720.mp4 filter=lfs diff=lfs merge=lfs -text
+hand_movement.avi filter=lfs diff=lfs merge=lfs -text
+yolo11x-pose.pt filter=lfs diff=lfs merge=lfs -text
