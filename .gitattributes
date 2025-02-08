@@ -1,10 +1,10 @@
 *.ipynb linguist-detectable=true
-Cross_Modal_Action_Recognition_Training/Step2_Model_Training_and_Validation/Model_Training.ipynb linguist-language=Jupyter Notebook
-Cross_Modal_Action_Recognition_Training/Step1_Data_Processing_and_Alignment/data_alignment.ipynb linguist-language=Jupyter Notebook
-Cross_Modal_Action_Recognition_Training/Step1_Data_Processing_and_Alignment/data_realignment_and_validation.ipynb linguist-language=Jupyter Notebook
-Cross_Modal_Action_Recognition_Training/Step1_Data_Processing_and_Alignment/ff_data_realignment_and_validation_n250205.ipynb linguist-language=Jupyter Notebook
+Model_Training_.ipynb linguist-language=Jupyter Notebook
+data_alignment_.ipynb linguist-language=Jupyter Notebook
+data_realignment_and_validation_.ipynb linguist-language=Jupyter Notebook
+ff_data_realignment_and_validation_n250205_.ipynb linguist-language=Jupyter Notebook
 
-; *.ipynb linguist-documentation=false
+*.ipynb linguist-documentation=false
 
 
 *.js linguist-language=JavaScript
