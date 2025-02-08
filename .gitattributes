@@ -12,8 +12,7 @@
 ;
 ;
 *.ipynb linguist-language=Jupyter Notebook
-
-
+*.py linguist-language=Python
 *.ino linguist-language=C++
 *.m linguist-language=Matlab
 *.pde linguist-language=Processing
