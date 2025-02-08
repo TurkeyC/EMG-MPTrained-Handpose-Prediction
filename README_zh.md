@@ -3,7 +3,8 @@
 <h1>EMG-MPTrained-Handpose-Prediction</h1>
 
 基于手臂EMG与MeidaPipe模型训练的手部姿态预测的一次~~失败的~~尝试<br>
-<br>
+
+我先承认，我一个寒假全都在整这玩意儿，文献基本没参考😓（手动抱头）<br>
 
 [![madewithlove](https://img.shields.io/badge/made_with-%E2%9D%A4-red?style=for-the-badge&labelColor=orange)](https://github.com/TurkeyC/EMG-MPTrained-Handpose-Prediction) [![License](https://img.shields.io/badge/LICENSE-MIT-green.svg?style=for-the-badge)](https://github.com/TurkeyC/EMG-MPTrained-Handpose-Prediction/blob/master/LICENSE)<br>
 [![GitHub Stars](https://img.shields.io/github/stars/TurkeyC/EMG-MPTrained-Handpose-Prediction.svg)](https://github.com/TurkeyC/EMG-MPTrained-Handpose-Prediction/stargazers) [![GitHub Forks](https://img.shields.io/github/forks/TurkeyC/EMG-MPTrained-Handpose-Prediction.svg)](https://github.com/TurkeyC/EMG-MPTrained-Handpose-Prediction/network)  [![GitHub Issues](https://img.shields.io/github/issues/TurkeyC/EMG-MPTrained-Handpose-Prediction.svg)](https://github.com/TurkeyC/EMG-MPTrained-Handpose-Prediction/issues) [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/TurkeyC/EMG-MPTrained-Handpose-Prediction.svg)](https://github.com/TurkeyC/EMG-MPTrained-Handpose-Prediction/pulls)<br>
@@ -95,7 +96,12 @@
 
 - 姿态预测
 
-  - 进入 [Step3_Pose_Prediction_Implementation](Cross_Modal_Action_Recognition_Training/Step3_Pose_Prediction_Implementation) 文件夹，运行 [pose_prediction.py](Cross_Modal_Action_Recognition_Training/Step3_Pose_Prediction_Implementation/pose_prediction.py) ，接入传感器并配置串口，即可调用刚才的预测模型，根据采集到的信号进行手部姿态预测，但是这时候就会发现预测出的姿态与期望严重不符，这也就是该项目的失败之处
+  - 进入 [Step3_Pose_Prediction_Implementation](Cross_Modal_Action_Recognition_Training/Step3_Pose_Prediction_Implementation) 文件夹，运行 [pose_prediction.py](Cross_Modal_Action_Recognition_Training/Step3_Pose_Prediction_Implementation/pose_prediction.py) ，接入传感器并配置串口，即可调用刚才的预测模型，根据采集到的信号进行手部姿态预测，但是这时候就会发现预测出的姿态与期望严重不符，这也就是该项目的失败之处😭
+  
+    理想状态：<br><img src=".resource/d1.png" alt="d1" style="zoom:50%;" /><br>
+  
+    实际效果：<br><img src=".resource/f1.png" alt="f1" style="zoom:25%;" /><img src=".resource/f2.png" alt="f2" style="zoom:25%;" />
+  
 
 
 
