@@ -1,9 +1,9 @@
 *.ipynb linguist-detectable=true
 *.ipynb linguist-documentation=false
 
-*.ipynb linguist-language=Jupyter Notebook
 
 *.js linguist-language=JavaScript
+*.ipynb linguist-language=Jupyter Notebook
 *.md linguist-language=Markdown
 *.json linguist-language=JSON
 *.xml linguist-language=XML
