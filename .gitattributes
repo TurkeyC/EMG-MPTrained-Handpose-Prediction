@@ -11,7 +11,7 @@
 ;
 ;
 ;
-; *.ipynb linguist-language=Jupyter Notebook
+*.ipynb linguist-language=Jupyter Notebook
 
 
 *.ino linguist-language=C++
