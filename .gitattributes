@@ -1,5 +1,10 @@
 *.ipynb linguist-detectable=true
-*.ipynb linguist-documentation=false
+Cross_Modal_Action_Recognition_Training/Step2_Model_Training_and_Validation/Model_Training.ipynb linguist-language=Jupyter Notebook
+Cross_Modal_Action_Recognition_Training/Step1_Data_Processing_and_Alignment/data_alignment.ipynb linguist-language=Jupyter Notebook
+Cross_Modal_Action_Recognition_Training/Step1_Data_Processing_and_Alignment/data_realignment_and_validation.ipynb linguist-language=Jupyter Notebook
+Cross_Modal_Action_Recognition_Training/Step1_Data_Processing_and_Alignment/ff_data_realignment_and_validation_n250205.ipynb linguist-language=Jupyter Notebook
+
+; *.ipynb linguist-documentation=false
 
 
 *.js linguist-language=JavaScript
@@ -11,11 +16,6 @@
 *.ino linguist-language=C++
 *.m linguist-language=Matlab
 *.pde linguist-language=Processing
-
-Cross_Modal_Action_Recognition_Training/Step2_Model_Training_and_Validation/Model_Training.ipynb linguist-language=Jupyter Notebook
-Cross_Modal_Action_Recognition_Training/Step1_Data_Processing_and_Alignment/data_alignment.ipynb linguist-language=Jupyter Notebook
-Cross_Modal_Action_Recognition_Training/Step1_Data_Processing_and_Alignment/data_realignment_and_validation.ipynb linguist-language=Jupyter Notebook
-Cross_Modal_Action_Recognition_Training/Step1_Data_Processing_and_Alignment/ff_data_realignment_and_validation_n250205.ipynb linguist-language=Jupyter Notebook
 
 
 yolo11l-pose.pt filter=lfs diff=lfs merge=lfs -text
