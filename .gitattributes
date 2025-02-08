@@ -1,18 +1,18 @@
-*.ipynb linguist-detectable=true
+; *.ipynb linguist-detectable=true
+;
+; *.ipynb linguist-language=Jupyter Notebook
+;
+; Model_Training_.ipynb linguist-language=Jupyter Notebook
+; data_alignment_.ipynb linguist-language=Jupyter Notebook
+; data_realignment_and_validation_.ipynb linguist-language=Jupyter Notebook
+; ff_data_realignment_and_validation_n250205_.ipynb linguist-language=Jupyter Notebook
+;
+; *.ipynb linguist-documentation=false
+;
+;
+;
+; *.ipynb linguist-language=Jupyter Notebook
 
-*.ipynb linguist-language=Jupyter Notebook
-
-Model_Training_.ipynb linguist-language=Jupyter Notebook
-data_alignment_.ipynb linguist-language=Jupyter Notebook
-data_realignment_and_validation_.ipynb linguist-language=Jupyter Notebook
-ff_data_realignment_and_validation_n250205_.ipynb linguist-language=Jupyter Notebook
-
-*.ipynb linguist-documentation=false
-
-
-
-*.ipynb linguist-language=Jupyter Notebook
-*.md linguist-language=Markdown
 
 *.ino linguist-language=C++
 *.m linguist-language=Matlab
