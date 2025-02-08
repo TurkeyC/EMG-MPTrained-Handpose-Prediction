@@ -1,3 +1,4 @@
+*.ipynb linguist-detectable=true
 *.ipynb linguist-documentation=false
 
 *.ipynb linguist-language=Jupyter Notebook
