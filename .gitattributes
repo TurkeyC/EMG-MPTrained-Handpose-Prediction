@@ -1,7 +1,7 @@
 *.ipynb linguist-documentation=false
 
 *.ipynb linguist-language=Jupyter Notebook
-; *.py linguist-language=Python
+
 *.js linguist-language=JavaScript
 *.md linguist-language=Markdown
 *.json linguist-language=JSON
